@@ -2,7 +2,7 @@
   <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
     <CLASSES>
       <root url="file://$PROJECT_DIR$" />
-      <root url="file://$USER_HOME$/.pub-cache/git/mapBox_gl-840fcae1c3d89346b9d1c0bac7fd08ca36581184" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/mapbox_gl_web-0.12.0" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

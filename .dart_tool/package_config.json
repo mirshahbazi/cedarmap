@@ -57,7 +57,7 @@
     },
     {
       "name": "mapbox_gl_platform_interface",
-      "rootUri": "../../mapbox_gl_platform_interface",
+      "rootUri": "file:///Users/mirshahbazi/.pub-cache/git/mapbox_gl_platform_interface-953f5e361615bb56847ed8f3da5298c646ef0e86/",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -116,7 +116,7 @@
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2021-09-20T14:54:15.087870Z",
+  "generated": "2021-09-20T15:41:46.871067Z",
   "generator": "pub",
   "generatorVersion": "2.14.0"
 }

@@ -2,6 +2,10 @@ mapbox_gl_web
 2.12
 file:///Users/mirshahbazi/.pub-cache/git/mapBox_gl-840fcae1c3d89346b9d1c0bac7fd08ca36581184/
 file:///Users/mirshahbazi/.pub-cache/git/mapBox_gl-840fcae1c3d89346b9d1c0bac7fd08ca36581184/lib/
+mapbox_gl_platform_interface
+2.12
+file:///Users/mirshahbazi/.pub-cache/git/mapbox_gl_platform_interface-953f5e361615bb56847ed8f3da5298c646ef0e86/
+file:///Users/mirshahbazi/.pub-cache/git/mapbox_gl_platform_interface-953f5e361615bb56847ed8f3da5298c646ef0e86/lib/
 archive
 2.12
 file:///Users/mirshahbazi/.pub-cache/hosted/pub.dartlang.org/archive-3.1.2/
@@ -56,12 +60,8 @@ file:///Users/mirshahbazi/.pub-cache/hosted/pub.dartlang.org/xml-5.1.2/
 file:///Users/mirshahbazi/.pub-cache/hosted/pub.dartlang.org/xml-5.1.2/lib/
 cedarmaps
 2.1
-file:///Users/mirshahbazi/Desktop/APA/cedarMap/cedar/
-file:///Users/mirshahbazi/Desktop/APA/cedarMap/cedar/lib/
-mapbox_gl_platform_interface
-2.12
-file:///Users/mirshahbazi/Desktop/APA/cedarMap/mapbox_gl_platform_interface/
-file:///Users/mirshahbazi/Desktop/APA/cedarMap/mapbox_gl_platform_interface/lib/
+file:///Users/mirshahbazi/Desktop/APA/cedar/
+file:///Users/mirshahbazi/Desktop/APA/cedar/lib/
 sky_engine
 2.12
 file:///Users/mirshahbazi/Documents/DartSdk/flutter/bin/cache/pkg/sky_engine/
