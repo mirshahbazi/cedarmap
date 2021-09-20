@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eba7c2d7-a8e7-4bb3-9f55-93b3f89644af" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1yP9Lvk5sxZTegvY5xtSwvPBdbR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eba7c2d7-a8e7-4bb3-9f55-93b3f89644af" name="Default Changelist" comment="" />
+      <created>1632142303078</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632142303078</updated>
+    </task>
+    <task id="LOCAL-00001" summary="change path">
+      <created>1632149701242</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632149701242</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change path" />
+    <option name="LAST_COMMIT_MESSAGE" value="change path" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1538" y="21" key="CommitChangelistDialog2" timestamp="1632149701144">
+      <screen x="1440" y="-509" width="1080" height="1920" />
+    </state>
+    <state x="1538" y="21" key="CommitChangelistDialog2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1632149701144" />
+    <state x="1580" y="175" key="Vcs.Push.Dialog.v2" timestamp="1632149704525">
+      <screen x="1440" y="-509" width="1080" height="1920" />
+    </state>
+    <state x="1580" y="175" key="Vcs.Push.Dialog.v2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1632149704525" />
+  </component>
+</project>
