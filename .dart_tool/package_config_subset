@@ -1,11 +1,7 @@
-mapbox_gl_web
+mapbox_gl
 2.12
-file:///Users/mirshahbazi/.pub-cache/git/mapBox_gl-840fcae1c3d89346b9d1c0bac7fd08ca36581184/
-file:///Users/mirshahbazi/.pub-cache/git/mapBox_gl-840fcae1c3d89346b9d1c0bac7fd08ca36581184/lib/
-mapbox_gl_platform_interface
-2.12
-file:///Users/mirshahbazi/.pub-cache/git/mapbox_gl_platform_interface-953f5e361615bb56847ed8f3da5298c646ef0e86/
-file:///Users/mirshahbazi/.pub-cache/git/mapbox_gl_platform_interface-953f5e361615bb56847ed8f3da5298c646ef0e86/lib/
+file:///Users/mirshahbazi/.pub-cache/git/flutter-mapbox-gl-f90d54d43fe00f57a41c1c370756ce46916878b3/
+file:///Users/mirshahbazi/.pub-cache/git/flutter-mapbox-gl-f90d54d43fe00f57a41c1c370756ce46916878b3/lib/
 archive
 2.12
 file:///Users/mirshahbazi/.pub-cache/hosted/pub.dartlang.org/archive-3.1.2/
@@ -74,4 +70,12 @@ flutter_web_plugins
 2.12
 file:///Users/mirshahbazi/Documents/DartSdk/flutter/packages/flutter_web_plugins/
 file:///Users/mirshahbazi/Documents/DartSdk/flutter/packages/flutter_web_plugins/lib/
+mapbox_gl_platform_interface
+2.12
+file:///Users/mirshahbazi/.pub-cache/git/flutter-mapbox-gl-f90d54d43fe00f57a41c1c370756ce46916878b3/mapbox_gl_platform_interface/
+file:///Users/mirshahbazi/.pub-cache/git/flutter-mapbox-gl-f90d54d43fe00f57a41c1c370756ce46916878b3/mapbox_gl_platform_interface/lib/
+mapbox_gl_web
+2.12
+file:///Users/mirshahbazi/.pub-cache/git/flutter-mapbox-gl-f90d54d43fe00f57a41c1c370756ce46916878b3/mapbox_gl_web/
+file:///Users/mirshahbazi/.pub-cache/git/flutter-mapbox-gl-f90d54d43fe00f57a41c1c370756ce46916878b3/mapbox_gl_web/lib/
 2
