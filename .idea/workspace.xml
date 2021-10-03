@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eba7c2d7-a8e7-4bb3-9f55-93b3f89644af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/mapbox_gl.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/ios/mapbox_gl.podspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632568414496</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change lib">
+      <created>1633256959454</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633256959454</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -74,18 +76,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="change lib" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1538" y="21" key="CommitChangelistDialog2" timestamp="1632568414351">
+    <state x="1538" y="21" key="CommitChangelistDialog2" timestamp="1633256959313">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
-    <state x="1538" y="21" key="CommitChangelistDialog2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1632568414351" />
+    <state x="1538" y="21" key="CommitChangelistDialog2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1633256959313" />
     <state x="1481" y="87" key="SettingsEditor" timestamp="1632150727762">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
     <state x="1481" y="87" key="SettingsEditor/1440.-509.1080.1920/0.25.1440.875@1440.-509.1080.1920" timestamp="1632150727762" />
-    <state x="1580" y="175" key="Vcs.Push.Dialog.v2" timestamp="1632568416306">
+    <state x="1580" y="175" key="Vcs.Push.Dialog.v2" timestamp="1633256961129">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
-    <state x="1580" y="175" key="Vcs.Push.Dialog.v2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1632568416306" />
+    <state x="1580" y="175" key="Vcs.Push.Dialog.v2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1633256961129" />
     <state x="1672" y="206" width="615" height="490" key="find.popup" timestamp="1632329057498">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
