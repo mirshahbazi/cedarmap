@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eba7c2d7-a8e7-4bb3-9f55-93b3f89644af" name="Default Changelist" comment="" />
+    <list default="true" id="eba7c2d7-a8e7-4bb3-9f55-93b3f89644af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/cedarmaps.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/ios/cedarmaps.podspec" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,28 +81,44 @@
       <option name="project" value="LOCAL" />
       <updated>1633795919965</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="downgrade mapbox">
+      <created>1633796433468</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1633796433468</updated>
+    </task>
+    <task id="LOCAL-00008" summary="upgrade mapbox sdk">
+      <created>1633796667306</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1633796667306</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change path" />
     <MESSAGE value="change lib" />
     <MESSAGE value="change podspec name" />
-    <option name="LAST_COMMIT_MESSAGE" value="change podspec name" />
+    <MESSAGE value="downgrade mapbox" />
+    <MESSAGE value="upgrade mapbox sdk" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade mapbox sdk" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1538" y="21" key="CommitChangelistDialog2" timestamp="1633795919758">
+    <state x="1538" y="21" key="CommitChangelistDialog2" timestamp="1633796667200">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
-    <state x="1538" y="21" key="CommitChangelistDialog2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1633795919758" />
+    <state x="1538" y="21" key="CommitChangelistDialog2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1633796667200" />
     <state x="1481" y="87" key="SettingsEditor" timestamp="1632150727762">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
     <state x="1481" y="87" key="SettingsEditor/1440.-509.1080.1920/0.25.1440.875@1440.-509.1080.1920" timestamp="1632150727762" />
-    <state x="1580" y="175" key="Vcs.Push.Dialog.v2" timestamp="1633795921682">
+    <state x="1580" y="175" key="Vcs.Push.Dialog.v2" timestamp="1633796668658">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
-    <state x="1580" y="175" key="Vcs.Push.Dialog.v2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1633795921682" />
+    <state x="1580" y="175" key="Vcs.Push.Dialog.v2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1633796668658" />
     <state x="1672" y="222" width="801" height="936" key="find.popup" timestamp="1633541027201">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
