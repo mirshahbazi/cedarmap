@@ -120,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633886051031</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update the source code">
+      <created>1633887520460</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1633887520460</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -133,18 +140,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="update the source code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1538" y="21" key="CommitChangelistDialog2" timestamp="1633886050837">
+    <state x="1538" y="21" key="CommitChangelistDialog2" timestamp="1633887520288">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
-    <state x="1538" y="21" key="CommitChangelistDialog2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1633886050837" />
+    <state x="1538" y="21" key="CommitChangelistDialog2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1633887520288" />
     <state x="1481" y="87" key="SettingsEditor" timestamp="1632150727762">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
     <state x="1481" y="87" key="SettingsEditor/1440.-509.1080.1920/0.25.1440.875@1440.-509.1080.1920" timestamp="1632150727762" />
-    <state x="1580" y="175" key="Vcs.Push.Dialog.v2" timestamp="1633886052633">
+    <state x="1580" y="175" key="Vcs.Push.Dialog.v2" timestamp="1633887528581">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
-    <state x="1580" y="175" key="Vcs.Push.Dialog.v2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1633886052633" />
+    <state x="1580" y="175" key="Vcs.Push.Dialog.v2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1633887528581" />
     <state x="1672" y="222" width="801" height="936" key="find.popup" timestamp="1633541027201">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
