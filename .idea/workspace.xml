@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eba7c2d7-a8e7-4bb3-9f55-93b3f89644af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/MapboxMapsPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/MapboxMapsPlugin.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/cedarmaps.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/ios/cedarmaps.podspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633892379841</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="remove mapbox_gl-Swift.h">
+      <created>1633894086404</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1633894086404</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -152,25 +160,26 @@
     <MESSAGE value="upgrade mapbox sdk" />
     <MESSAGE value="update the source code" />
     <MESSAGE value="nsstring to string" />
-    <option name="LAST_COMMIT_MESSAGE" value="nsstring to string" />
+    <MESSAGE value="remove mapbox_gl-Swift.h" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove mapbox_gl-Swift.h" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1538" y="21" key="CommitChangelistDialog2" timestamp="1633892379686">
+    <state x="1538" y="21" key="CommitChangelistDialog2" timestamp="1633894086293">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
-    <state x="1538" y="21" key="CommitChangelistDialog2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1633892379686" />
+    <state x="1538" y="21" key="CommitChangelistDialog2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1633894086293" />
     <state x="1481" y="87" key="SettingsEditor" timestamp="1632150727762">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
     <state x="1481" y="87" key="SettingsEditor/1440.-509.1080.1920/0.25.1440.875@1440.-509.1080.1920" timestamp="1632150727762" />
-    <state x="1580" y="175" key="Vcs.Push.Dialog.v2" timestamp="1633892383079">
+    <state x="1580" y="175" key="Vcs.Push.Dialog.v2" timestamp="1633894098856">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
-    <state x="1580" y="175" key="Vcs.Push.Dialog.v2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1633892383079" />
-    <state x="1672" y="222" width="801" height="936" key="find.popup" timestamp="1633541027201">
+    <state x="1580" y="175" key="Vcs.Push.Dialog.v2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1633894098856" />
+    <state x="1672" y="222" width="801" height="936" key="find.popup" timestamp="1633894053949">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
     <state x="1672" y="222" width="801" height="936" key="find.popup/1440.-484.1080.1895/0.25.1440.819@1440.-484.1080.1895" timestamp="1633540833837" />
-    <state x="1672" y="222" width="801" height="936" key="find.popup/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1633541027201" />
+    <state x="1672" y="222" width="801" height="936" key="find.popup/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1633894053949" />
   </component>
 </project>
