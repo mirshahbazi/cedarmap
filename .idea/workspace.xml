@@ -23,9 +23,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ios/Classes" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ios/Classes" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -108,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633808450554</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update the source code">
+      <created>1633886051030</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1633886051031</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -117,21 +129,22 @@
     <MESSAGE value="change podspec name" />
     <MESSAGE value="downgrade mapbox" />
     <MESSAGE value="upgrade mapbox sdk" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgrade mapbox sdk" />
+    <MESSAGE value="update the source code" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the source code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1538" y="21" key="CommitChangelistDialog2" timestamp="1633808450443">
+    <state x="1538" y="21" key="CommitChangelistDialog2" timestamp="1633886050837">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
-    <state x="1538" y="21" key="CommitChangelistDialog2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1633808450443" />
+    <state x="1538" y="21" key="CommitChangelistDialog2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1633886050837" />
     <state x="1481" y="87" key="SettingsEditor" timestamp="1632150727762">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
     <state x="1481" y="87" key="SettingsEditor/1440.-509.1080.1920/0.25.1440.875@1440.-509.1080.1920" timestamp="1632150727762" />
-    <state x="1580" y="175" key="Vcs.Push.Dialog.v2" timestamp="1633808849863">
+    <state x="1580" y="175" key="Vcs.Push.Dialog.v2" timestamp="1633886052633">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
-    <state x="1580" y="175" key="Vcs.Push.Dialog.v2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1633808849863" />
+    <state x="1580" y="175" key="Vcs.Push.Dialog.v2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1633886052633" />
     <state x="1672" y="222" width="801" height="936" key="find.popup" timestamp="1633541027201">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
