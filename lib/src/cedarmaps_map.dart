@@ -224,7 +224,7 @@ class _CedarmapsMapState extends State<CedarmapsMap> {
   @override
   void initState() {
     super.initState();
-    // futureAccessToken = Authentication().getAccessToken(widget.clientID, widget.clientSecret);
+    futureAccessToken = Authentication().getAccessToken(widget.clientID, widget.clientSecret);
     _cedarmapsMapOptions = _CedarmapsMapOptions.fromWidget(widget, null);
   }
 
@@ -299,10 +299,7 @@ class _CedarmapsMapOptions {
     return _CedarmapsMapOptions(
       compassEnabled: map.compassEnabled,
       cameraTargetBounds: map.cameraTargetBounds,
-      styleString: accessToken == null
-          ? null
-          : [Constants.CEDARMAPS_BASE_URL, MapStyleHelper.urlPath(map.style)]
-                  .join('/') ,
+      styleString:[Constants.CEDARMAPS_BASE_URL, MapStyleHelper.urlPath(map.style)].join('/') ,
       minMaxZoomPreference: map.minMaxZoomPreference,
       rotateGesturesEnabled: map.rotateGesturesEnabled,
       scrollGesturesEnabled: map.scrollGesturesEnabled,
