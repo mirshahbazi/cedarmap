@@ -303,8 +303,7 @@ class _CedarmapsMapOptions {
       styleString: accessToken == null
           ? null
           : [Constants.CEDARMAPS_BASE_URL, MapStyleHelper.urlPath(map.style)]
-                  .join('/') +
-              '?access_token=$accessToken',
+                  .join('/') ,
       minMaxZoomPreference: map.minMaxZoomPreference,
       rotateGesturesEnabled: map.rotateGesturesEnabled,
       scrollGesturesEnabled: map.scrollGesturesEnabled,
