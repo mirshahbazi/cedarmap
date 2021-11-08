@@ -224,7 +224,7 @@ class _CedarmapsMapState extends State<CedarmapsMap> {
   @override
   void initState() {
     super.initState();
-    futureAccessToken = Authentication().getAccessToken(widget.clientID, widget.clientSecret);
+    //futureAccessToken = Authentication().getAccessToken(widget.clientID, widget.clientSecret);
     _cedarmapsMapOptions = _CedarmapsMapOptions.fromWidget(widget, null);
   }
 
@@ -294,7 +294,6 @@ class _CedarmapsMapOptions {
     this.compassViewPosition,
     this.compassViewMargins,
   });
-
   static _CedarmapsMapOptions fromWidget(CedarmapsMap map, String accessToken) {
     return _CedarmapsMapOptions(
       compassEnabled: map.compassEnabled,
