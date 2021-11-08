@@ -13,7 +13,7 @@ class Authentication {
   Authentication._internal();
 
   Future<String> getAccessToken(String clientID, String clientSecret) async {
-    final uri = Uri.parse([Constants.CEDARMAPS_BASE_URL, 'v1/token'].join('/'));
+    final uri = Uri.parse([Constants.GET_TOKEN].join('/'));
 
     var body = new Map<String, String>();
     body['client_id'] = clientID;
