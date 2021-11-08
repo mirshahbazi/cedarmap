@@ -223,7 +223,7 @@ class _CedarmapsMapState extends State<CedarmapsMap> {
   @override
   void initState() {
     super.initState();
-    futureAccessToken = Authentication().getAccessToken(widget.clientID, widget.clientSecret);
+    // futureAccessToken = Authentication().getAccessToken(widget.clientID, widget.clientSecret);
     _cedarmapsMapOptions = _CedarmapsMapOptions.fromWidget(widget, null);
   }
 
