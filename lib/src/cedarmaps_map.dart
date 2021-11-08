@@ -3,6 +3,7 @@ part of cedarmaps;
 typedef void MapCreatedCallback(MapboxMapController controller);
 //by mirshahbazi
 class CedarmapsMap extends StatefulWidget {
+
   const CedarmapsMap({
     @required this.initialCameraPosition,
     this.clientID,
@@ -25,6 +26,8 @@ class CedarmapsMap extends StatefulWidget {
     this.logoViewMargins,
     this.compassViewPosition,
     this.compassViewMargins,
+    this.baseUrl,
+    this.apaToken,
     this.onMapClick,
     this.onUserLocationUpdated,
     this.onMapLongClick,
@@ -37,6 +40,12 @@ class CedarmapsMap extends StatefulWidget {
   /// If you want to use Cedarmaps hosted styles and map tiles, you need to provide a Cedarmaps client ID and client Secret.
   /// Obtain your credentials on [Cedarmaps website](https://www.cedarmaps.com/).
   final String clientID;
+
+
+  ///application base url
+  final String  baseUrl;
+  /// cedar map token
+  final String  apaToken;
 
   /// If you want to use Cedarmaps hosted styles and map tiles, you need to provide a Cedarmaps client ID and client Secret.
   /// Obtain your credentials on [Cedarmaps website](https://www.cedarmaps.com/).
@@ -291,13 +300,14 @@ class _CedarmapsMapOptions {
     this.myLocationRenderMode,
     this.logoViewMargins,
     this.compassViewPosition,
+    this.baseUrl,
     this.compassViewMargins,
   });
   static _CedarmapsMapOptions fromWidget(CedarmapsMap map, String accessToken) {
     return _CedarmapsMapOptions(
       compassEnabled: map.compassEnabled,
       cameraTargetBounds: map.cameraTargetBounds,
-      styleString:[Constants.CEDARMAPS_BASE_URL, MapStyleHelper.urlPath(map.style)].join('/') ,
+      styleString:[map.baseUrl, MapStyleHelper.urlPath(map.style)].join('/') ,
       minMaxZoomPreference: map.minMaxZoomPreference,
       rotateGesturesEnabled: map.rotateGesturesEnabled,
       scrollGesturesEnabled: map.scrollGesturesEnabled,
@@ -314,6 +324,8 @@ class _CedarmapsMapOptions {
   }
 
   final bool compassEnabled;
+
+  final String  baseUrl;
 
   final CameraTargetBounds cameraTargetBounds;
 
@@ -342,6 +354,8 @@ class _CedarmapsMapOptions {
   final CompassViewPosition compassViewPosition;
 
   final Point compassViewMargins;
+  
+  final String  BaseUrl;
 
   Map<String, dynamic> toMap() {
     final Map<String, dynamic> optionsMap = <String, dynamic>{};
