@@ -26,7 +26,7 @@ class CedarmapsMap extends StatefulWidget {
     this.logoViewMargins,
     this.compassViewPosition,
     this.compassViewMargins,
-    this.baseUrl,
+    this.baseUrl = "https://apicustomer.printerhamrah.com",
     this.apaToken,
     this.onMapClick,
     this.onUserLocationUpdated,
