@@ -300,7 +300,6 @@ class _CedarmapsMapOptions {
     this.myLocationRenderMode,
     this.logoViewMargins,
     this.compassViewPosition,
-    this.baseUrl,
     this.compassViewMargins,
   });
   static _CedarmapsMapOptions fromWidget(CedarmapsMap map, String accessToken) {
@@ -324,8 +323,6 @@ class _CedarmapsMapOptions {
   }
 
   final bool compassEnabled;
-
-  final String  baseUrl;
 
   final CameraTargetBounds cameraTargetBounds;
 
