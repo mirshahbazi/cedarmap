@@ -25,7 +25,6 @@ class CedarmapsMap extends StatefulWidget {
     this.logoViewMargins,
     this.compassViewPosition,
     this.compassViewMargins,
-    this.BaseUrl,
     this.onMapClick,
     this.onUserLocationUpdated,
     this.onMapLongClick,
