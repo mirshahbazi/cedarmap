@@ -291,7 +291,6 @@ class _CedarmapsMapOptions {
     this.myLocationRenderMode,
     this.logoViewMargins,
     this.compassViewPosition,
-    this.BaseUrl,
     this.compassViewMargins,
   });
   static _CedarmapsMapOptions fromWidget(CedarmapsMap map, String accessToken) {
@@ -316,7 +315,7 @@ class _CedarmapsMapOptions {
 
   final bool compassEnabled;
 
-  final String  BaseUrl;
+
 
   final CameraTargetBounds cameraTargetBounds;
 
@@ -345,8 +344,7 @@ class _CedarmapsMapOptions {
   final CompassViewPosition compassViewPosition;
 
   final Point compassViewMargins;
-  
-  final String  BaseUrl;
+
 
   Map<String, dynamic> toMap() {
     final Map<String, dynamic> optionsMap = <String, dynamic>{};
