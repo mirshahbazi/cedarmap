@@ -6,13 +6,13 @@ class MapStyleHelper {
   static String urlPath(MapStyle style) {
     switch (style) {
       case MapStyle.LIGHT:
-        return 'v1/styles/cedarmaps.light.json';
+        return 'map/v1/styles/cedarmaps.light.json';
       case MapStyle.DARK:
-        return 'v1/styles/cedarmaps.dark.json';
+        return 'map/v1/styles/cedarmaps.dark.json';
       case MapStyle.LIGHT_RASTER:
-        return 'v1/tiles/light.json';
+        return 'map/v1/tiles/light.json';
       default:
-        return 'v1/styles/cedarmaps.light.json';
+        return 'map/v1/styles/cedarmaps.light.json';
     }
   }
 
