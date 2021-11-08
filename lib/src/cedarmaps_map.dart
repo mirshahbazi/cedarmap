@@ -180,11 +180,10 @@ class _CedarmapsMapState extends State<CedarmapsMap> {
     return FutureBuilder<String>(
       future: futureAccessToken,
       builder: (context, snapshot) {
-        if (snapshot.hasData) {
+        // if (snapshot.hasData) {
           final Map<String, dynamic> creationParams = <String, dynamic>{
             'initialCameraPosition': widget.initialCameraPosition?.toMap(),
-            'options':
-                _CedarmapsMapOptions.fromWidget(widget, snapshot.data).toMap(),
+            'options': _CedarmapsMapOptions.fromWidget(widget, snapshot.data).toMap(),
             'accessToken': _initialToken,
           };
 
@@ -212,11 +211,11 @@ class _CedarmapsMapState extends State<CedarmapsMap> {
                   //     width: 85, height: 21, fit: BoxFit.fitWidth))
             ],
           );
-        } else {
-          String color = MapStyleHelper.backgroundHexColor(widget.style)
-              .replaceAll('#', '0xff');
-          return Container(color: Color(int.parse(color)));
-        }
+        // } else {
+        //   String color = MapStyleHelper.backgroundHexColor(widget.style)
+        //       .replaceAll('#', '0xff');
+        //   return Container(color: Color(int.parse(color)));
+        // }
       },
     );
   }
@@ -225,7 +224,6 @@ class _CedarmapsMapState extends State<CedarmapsMap> {
   void initState() {
     super.initState();
     futureAccessToken = Authentication().getAccessToken(widget.clientID, widget.clientSecret);
-    print("cedarToken$futureAccessToken");
     _cedarmapsMapOptions = _CedarmapsMapOptions.fromWidget(widget, null);
   }
 
