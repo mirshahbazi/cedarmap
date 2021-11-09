@@ -301,7 +301,7 @@ class _CedarmapsMapOptions {
     return _CedarmapsMapOptions(
       compassEnabled: map.compassEnabled,
       cameraTargetBounds: map.cameraTargetBounds,
-      styleString:[map.baseUrl, MapStyleHelper.urlPath(map.style)].join('/') ,
+      styleString:map.baseUrl + MapStyleHelper.urlPath(map.style) ,
       minMaxZoomPreference: map.minMaxZoomPreference,
       rotateGesturesEnabled: map.rotateGesturesEnabled,
       scrollGesturesEnabled: map.scrollGesturesEnabled,
