@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eba7c2d7-a8e7-4bb3-9f55-93b3f89644af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/cedarmaps_map.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/cedarmaps_map.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +32,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -310,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636437154359</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="add base url and token valid">
+      <created>1636437653303</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1636437653303</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -333,23 +341,24 @@
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
     <state x="1444" y="110" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1634148264561" />
-    <state x="1538" y="21" key="CommitChangelistDialog2" timestamp="1636437154269">
+    <state x="1538" y="21" key="CommitChangelistDialog2" timestamp="1636437653214">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
-    <state x="1538" y="21" key="CommitChangelistDialog2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1636437154269" />
+    <state x="1538" y="21" key="CommitChangelistDialog2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1636437653214" />
     <state x="1538" y="21" key="CommitChangelistDialog2/1440.-509.1080.1920/0.25.1440.875@1440.-509.1080.1920" timestamp="1636352172552" />
     <state x="1768" y="196" key="FileChooserDialogImpl" timestamp="1633948176222">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
     <state x="1768" y="196" key="FileChooserDialogImpl/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1633948176222" />
-    <state x="1481" y="87" key="SettingsEditor" timestamp="1632150727762">
+    <state x="1481" y="87" key="SettingsEditor" timestamp="1636438373843">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
+    <state x="1481" y="87" key="SettingsEditor/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1636438373843" />
     <state x="1481" y="87" key="SettingsEditor/1440.-509.1080.1920/0.25.1440.875@1440.-509.1080.1920" timestamp="1632150727762" />
-    <state x="1580" y="175" key="Vcs.Push.Dialog.v2" timestamp="1636437156507">
+    <state x="1580" y="175" key="Vcs.Push.Dialog.v2" timestamp="1636437655115">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
-    <state x="1580" y="175" key="Vcs.Push.Dialog.v2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1636437156507" />
+    <state x="1580" y="175" key="Vcs.Push.Dialog.v2/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1636437655115" />
     <state x="1580" y="175" key="Vcs.Push.Dialog.v2/1440.-509.1080.1920/0.25.1440.875@1440.-509.1080.1920" timestamp="1636352176357" />
     <state x="1540" y="-409" width="880" height="1720" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1636354010022">
       <screen x="1440" y="-509" width="1080" height="1920" />
@@ -359,11 +368,11 @@
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
     <state x="1706" y="44" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1636376875618" />
-    <state x="1672" y="222" width="801" height="936" key="find.popup" timestamp="1636392660060">
+    <state x="1672" y="222" width="801" height="936" key="find.popup" timestamp="1636438399715">
       <screen x="1440" y="-509" width="1080" height="1920" />
     </state>
     <state x="1672" y="222" width="801" height="936" key="find.popup/1440.-484.1080.1895/0.25.1440.819@1440.-484.1080.1895" timestamp="1633540833837" />
-    <state x="1672" y="222" width="801" height="936" key="find.popup/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1636392660060" />
+    <state x="1672" y="222" width="801" height="936" key="find.popup/1440.-509.1080.1920/0.0.1440.900@1440.-509.1080.1920" timestamp="1636438399715" />
     <state x="309" y="337" width="1068" height="490" key="find.popup/1440.-509.1080.1920/0.25.1440.819@0.25.1440.819" timestamp="1636279226765" />
     <state x="1672" y="222" width="801" height="1149" key="find.popup/1440.-509.1080.1920/0.25.1440.875@1440.-509.1080.1920" timestamp="1636351404916" />
   </component>

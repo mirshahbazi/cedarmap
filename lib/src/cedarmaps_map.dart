@@ -8,6 +8,7 @@ class CedarmapsMap extends StatefulWidget {
     this.clientID,
     this.clientSecret,
     this.baseUrl,
+    this.token,
     this.onMapCreated,
     this.onStyleLoadedCallback,
     this.gestureRecognizers,
@@ -41,6 +42,9 @@ class CedarmapsMap extends StatefulWidget {
 
   ///select the server
   final String baseUrl;
+
+  ///apa token
+  final String token;
 
   /// If you want to use Cedarmaps hosted styles and map tiles, you need to provide a Cedarmaps client ID and client Secret.
   /// Obtain your credentials on [Cedarmaps website](https://www.cedarmaps.com/).
@@ -301,7 +305,7 @@ class _CedarmapsMapOptions {
     return _CedarmapsMapOptions(
       compassEnabled: map.compassEnabled,
       cameraTargetBounds: map.cameraTargetBounds,
-      styleString:map.baseUrl + MapStyleHelper.urlPath(map.style) ,
+      styleString:[map.baseUrl + MapStyleHelper.urlPath(map.style)].join('/')+'?token=${map.token}' ,
       minMaxZoomPreference: map.minMaxZoomPreference,
       rotateGesturesEnabled: map.rotateGesturesEnabled,
       scrollGesturesEnabled: map.scrollGesturesEnabled,
@@ -316,6 +320,7 @@ class _CedarmapsMapOptions {
       compassViewMargins: map.compassViewMargins,
     );
   }
+
 
   final bool compassEnabled;
 
