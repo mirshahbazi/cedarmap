@@ -578,13 +578,14 @@ final class MapboxMapController
       case "map#queryRenderedFeatures": {
         Map<String, Object> reply = new HashMap<>();
         List<Feature> features;
-
+        System.out.println("Reached point a");
         String[] layerIds = ((List<String>) call.argument("layerIds")).toArray(new String[0]);
 
         List<Object> filter = call.argument("filter");
         JsonElement jsonElement = filter == null ? null : new Gson().toJsonTree(filter);
+	 System.out.println("Reached point B");     
         JsonArray jsonArray = null;
-         if (jsonElement != null && jsonElement.isJsonArray()) {
+         if (jsonElement != null) {
           jsonArray = jsonElement.getAsJsonArray();
         } else {
           // Handle the case when jsonElement is null or not a JsonArray
