@@ -584,8 +584,14 @@ final class MapboxMapController
         List<Object> filter = call.argument("filter");
         JsonElement jsonElement = filter == null ? null : new Gson().toJsonTree(filter);
         JsonArray jsonArray = null;
-        if (jsonElement != null && jsonElement.isJsonArray()) {
+         if (jsonElement != null && jsonElement.isJsonArray()) {
           jsonArray = jsonElement.getAsJsonArray();
+        } else {
+          // Handle the case when jsonElement is null or not a JsonArray
+          // You might want to log a message or take appropriate action
+          // depending on your requirements.
+          // For now, I'm just setting jsonArray to an empty array.
+          jsonArray = new JsonArray();
         }
         Expression filterExpression = jsonArray == null ? null : Expression.Converter.convert(jsonArray);
         if (call.hasArgument("x")) {
