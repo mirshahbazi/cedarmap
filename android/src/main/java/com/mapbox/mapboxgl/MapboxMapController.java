@@ -623,8 +623,8 @@ final class MapboxMapController
         break;
       }
       case "map#getTelemetryEnabled": {
-        final TelemetryEnabler.State telemetryState = TelemetryEnabler.retrieveTelemetryStateFromPreferences();
-        result.success(telemetryState == TelemetryEnabler.State.ENABLED);
+        // final TelemetryEnabler.State telemetryState = TelemetryEnabler.retrieveTelemetryStateFromPreferences();
+        // result.success(telemetryState == TelemetryEnabler.State.ENABLED);
         break;
       }
       case "map#invalidateAmbientCache": {
