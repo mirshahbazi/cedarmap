@@ -37,8 +37,13 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     dependencies {
-             implementation('com.mapbox.mapboxsdk:mapbox-android-sdk:9.7.1') {
-            exclude group: 'com.mapbox.mapboxsdk', module: 'mapbox-android-telemetry'
+        implementation('com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0') {
+            exclude group: 'com.mapbox.mapboxsdk', module:'mapbox-android-telemetry'
+            exclude group: 'com.mapbox.mapboxsdk', module:'mapbox-android-telemetry-okhttp3'
+            exclude group: 'com.mapbox.mapboxsdk', module: 'mapbox-android-core'
+            exclude group: 'com.mapbox.mapboxsdk', module: 'mapbox-java-geojson'
+            transitive = true
+
         }
         implementation "com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:0.9.0"
         implementation "com.mapbox.mapboxsdk:mapbox-android-plugin-localization-v9:0.12.0"
